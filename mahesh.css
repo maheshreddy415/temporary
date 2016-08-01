@@ -1,0 +1,69 @@
+.fL {
+	float:left;
+}
+
+.p1 {
+	padding:1px;
+}
+
+.bgRed {
+	background-color: red;
+}
+
+.w25 {
+	width:25%;
+	height:2px;
+	position:relative;
+	bottom:-6px;
+}
+
+.w50 {
+	width:50%;
+	height:2px;
+	position:relative;
+	bottom:-6px;
+}
+
+.w100 {
+	width:100%;
+	height:2px;
+	position:relative;
+	bottom:-6px;
+}
+
+.hide {
+	display: none;
+}
+
+.steps a {
+	text-decoration: none;
+	cursor: default;
+}
+
+.sub-steps {
+	display: none;
+}
+
+.sub-steps.active {
+	display: block;
+}
+
+.steps .active a:hover {
+	cursor: pointer;
+}
+
+.sub-steps > div {
+	display: none;
+}
+.sub-steps .active {
+	background-color: red;
+}
+.step-content {
+	border: 1px solid #CCC;
+}
+.step-content .active, .sub-step-content .active {
+	display: block;
+}
+.step-content .step-pane:not(.active), .sub-step-content .sub-step-pane:not(.active) {
+	display: none;
+}
