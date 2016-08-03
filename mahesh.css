@@ -59,11 +59,143 @@
 	background-color: red;
 }
 .step-content {
-	border: 1px solid #CCC;
+	//border: 1px solid #CCC;
 }
 .step-content .active, .sub-step-content .active {
 	display: block;
 }
 .step-content .step-pane:not(.active), .sub-step-content .sub-step-pane:not(.active) {
 	display: none;
+}
+
+.fSize14 {
+	font-size: 14px;
+}
+
+.fSize15 {
+	font-size: 15px;
+}
+
+.fSize12 {
+	font-size: 12px;
+}
+
+.fSizeR12 {
+	font:12px regular;
+}
+
+.fSizeR14 {
+	font:14px regular;
+}
+
+.width20 {
+	width:20%;
+}
+
+.width65 {
+	width:65%;
+}
+
+.width80 {
+	width:80%;
+}
+
+
+
+.c777 {
+	color: #777 !important;
+}
+
+.c575c675 {
+	color: #575c67 !important;
+}
+
+.cd8292e {
+	color: #d8292e !important;
+}
+
+.cff0300 {
+	color: #ff0300 !important;
+}
+
+.branchdetails, .accountextra, .accountactivity {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color:#000000;
+}
+
+.branchdetails  span {
+	background: url('../images/BranchDetail.png') no-repeat;
+}
+
+.accountextra span {
+	background: url('../images/AccountExtra.png') no-repeat;
+}
+
+.accountactivity span {
+	background: url('../images/AccountActivity.png') no-repeat;
+}
+
+.branchdetails  span, .accountextra span, .accountactivity span {
+	padding:10px 15px 10px 10px;
+	float:left;
+	background-position: left center;
+}
+
+.branchdetailsContent, .accountextraContent, .accountactivityContent {
+	margin-top: 10px;
+}
+
+.rewardProgramLogo {
+	background: url('../images/gift.png') no-repeat;
+}
+
+.masterCardLogo {
+	background: url('../images/payment.png') no-repeat;
+}
+
+.rewardProgramLogo, .masterCardLogo {
+	height: 75px;
+	width: 70px;
+	background-position: center;
+}
+
+.rewardProgram, .masterCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    height: 100px;
+}
+
+.accountDetails {
+	cursor: Pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+	border-radius:4px;
+}
+
+.custom-file-upload.active {
+	background: url('../images/layer9_img_upload.png') no-repeat;
+	height: 55px;
+}
+
+.fileText .close {
+	height: 40px;
+	width:20px;
+	background: url('../images/cross_dark.png') no-repeat;
+	background-position: center;
 }
