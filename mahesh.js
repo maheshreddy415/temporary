@@ -1,4 +1,3 @@
-
 $('#next-step').click(function (e) {
 	e.preventDefault();
 	var currentTab = $('.steps .active'),
@@ -57,4 +56,38 @@ $('#selectAccountDropDown').on('change', function(){
 	$("[data-link='#sb1']").removeClass('hide');
 	$('#accountTypeMainDiv').removeClass('hide');
 	$('#next-step').removeClass('hide');
+	$('#saveForLater').removeClass('hide');
+	$('#cancelApp').removeClass('hide');
 });
+
+$('.selectAccounts').on('click', function(){
+	var selectAcc = $(this);
+	selectAcc.toggleClass('active');
+	selectAcc.find('.tickIcon').toggleClass('hide');
+	
+	if($('.selectAccounts.active').length > 0) {
+		$('#next-step').removeAttr('disabled');
+	} else {
+		$('#next-step').attr("disabled", 'disabled');
+	}
+});
+
+
+$('#fileUpload').on('change',function () {
+	$(this).parent('.custom-file-upload').addClass('active').addClass('col-md-12').removeClass('col-md-8');
+	$('.fileUploadLabel').addClass('hide');
+	$('.fileText').removeClass('hide');
+});
+
+$('.fileText .close').on('click', function(e) {
+	e.stopPropagation();
+});
+
+
+
+
+
+
+
+
+
