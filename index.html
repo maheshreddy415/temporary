@@ -21,7 +21,7 @@
 		<div class="innerNavDiv">
 		 	<ul class="menu clear steps">
 		 		<li data-target="#st1" class="active">
-					<a href="#">Choose your Product</a>
+					<a href="#" class="active">Choose your Product</a>
 					<div>
 						<span data-link="#sb1" class="fL w50 bgRed hide"></span>
 						<span data-link="#sb2" class="fL w50 bgRed hide"></span>
@@ -72,14 +72,86 @@
 								
 								<div id="accountTypeMainDiv" class="hide">
 								
-									<div>&nbsp;</div>
-									<div>&nbsp;</div>
-									<div>&nbsp;</div>
-									<div>&nbsp;</div>
-									Slide 6 code comes here.
-									<div>&nbsp;</div>
-									<div>&nbsp;</div>
-									<div>&nbsp;</div>
+									<p class="accountText">A maximum of four Accounts can be applied for one at a time.Please review/adjust your selections before adding another Account.</p>
+
+									<div class="row imageTab">
+										<div class="col-xs-12 col-md-3">
+										<div class="Checking accountTab active">
+											<div class="checkIcon image"></div>
+											<p>Checking</p>
+										</div>
+										</div>
+										<div class="col-xs-12 col-md-3">
+											<div class="Savings accountTab">
+											<div class="savingsIcon image"></div>
+											<p>Savings</p>
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-3">
+											<div class="cds accountTab">
+											<div class="cdsIcon image"></div>
+											<p>CDs</p>
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-3">
+											<div class="hsa accountTab">
+											<div class="hsaIcon image"></div>
+											<p>HSA</p>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="row accountDetailsTab">
+										<div class="clearfix firstRow">
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Hassle-FreeAccount</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Advantage Checking</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Hassle KeyAccount</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+										</div>
+										<div class="clearfix secondRow">
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Hassle KeyAccount</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Hassle KeyAccount</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+											<div class="col-xs-12 col-md-4">
+												<div class="accountDetails selectAccounts">
+													<p>KeyBank<span class="tickIcon hide"></span></p>
+													<p>Hassle KeyAccount</p>
+													<span class="roundedPlus"></span>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+
 									
 								</div>
 								
@@ -89,15 +161,77 @@
 						<div class="sub-step-content" data-target="subSteps2">
 						
 							<div class="sub-step-pane active" id="sb3">
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
-								<p>Tell us about yourself SUB-STEP 1</p>
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
-								<div>&nbsp;</div>
+								<!--<p>Tell us about yourself SUB-STEP 1</p>-->
+								<p class="para1">You are applying for </p><p class="two"> 2 products</p> 
+								<a href="#" class="anchor clearfix"><sub>change</sub></a>
+								<div class="row">
+									<div class="col-xs-12 col-md-6">
+										<div class="accountDetails active">
+											<p>KeyBank<span class="tickIcon"></span></p>
+											<p>Hassle-FreeAccount <sup>&reg;</sup></p>
+											<span class="cross"></span>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-6">
+										<div class="accountDetails active">
+											<p>Key Student checking <sup>&reg;</sup></p>
+											<ul class="Rates">
+												<li>
+													<a href="#">Rates & Fees </a>
+												</li>
+												<li>
+													<a href="#">Details </a>
+												</li>
+											</ul>
+											<span class="cross"></span>
+										</div>
+									</div>
+								</div>
+								<h3 class="tellAbout">Want to Know more about u</h3>
+								<div class="valid clearfix">
+								<p class="switchText">Do you have a valid identification card issued by one of the United States 
+								</p><span class="switchBtn"></span></div>
+								<div class="row uploadContainer">
+									<div class="col-xs-12 col-md-4">
+										<div class="uploadText">Upload your*</div><span class="helpIcon iconMobile"></span>
+										<div class="idText">
+											<select class="idDetails">
+												<option>Identification details</option>
+												<option>Driving License</option>
+												<option>SSN</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-4">
+										<!--<input type="file" name="upload" class="form-control upload" placeholder="Upload">-->
+										<label class="custom-file-upload col-md-8 c575c675">
+											<input id="fileUpload" type="file"/>
+											<div class="fileUploadLabel">Upload</div>
+											<div class="fileText fSize12 hide width65 pull-right">
+												<div class="width80 pull-left">
+													<div>
+														Jodee Robersten..
+													</div>
+													<div>
+														<a href="#" class="fSize12 c575c675">view</a>
+													</div>
+												</div>
+												<div class="width20 pull-left">
+													<span class="close"></span>
+												</div>
+											</div>
+										</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-md-4">
+										<div class="uploadText">Provide your ssn</div>
+										<div class="uploadText">(Social Security Number)</div>
+									</div>
+									<div class="col-xs-12 col-md-4">
+										<input type="text" name="ssn" class="form-control">
+									</div>
+								</div>
 							</div>
 							
 							<div class="sub-step-pane" id="sb4">
@@ -118,15 +252,138 @@
 					
 					
 					<div class="step-pane" id="st3">
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<p>Make your first deposit code comes here.</p>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
+						
+						<p class="para1">You are applying for</p><p class="two"> 2 products</p> 
+						<a href="#" class="anchor clearfix"><sub>change</sub></a>
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<div class="accountDetails active">
+									<p>KeyBank<span class="tickIcon"></span></p>
+									<p>Hassle-FreeAccount <sup>&reg;</sup></p>
+									<span class="cross"></span>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<div class="accountDetails active">
+									<p>Key Student checking <sup>&reg;</sup></p>
+									<ul class="Rates">
+									<li>
+									<a href="#">Rates & Fees </a>
+									</li>
+									<li>
+									<a href="#">Details </a>
+									</li>
+
+									</ul>
+									<span class="cross"></span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="">
+							<label for="account" class="account">Account Information</label>
+							
+							<div>
+								<div>
+									<div class="branchdetails">
+										<span></span>
+										<div>Branch Details</div>
+									</div>
+									<div class="branchdetailsContent">
+										<p class="fSize15 c777">This account assigned to the branch at the following location</p>
+										<div  class="fSize14 c575c675">
+											<div>
+												<span class="pull-right">13.4 miles away</span>
+											</div>
+											<div>
+												<label>New Albany</label>
+												<label>5300 N Hamilton Rd, Columbus,</label>
+												<label>OH 43230</label>
+												<label>Phone: 614-245-3000</label>
+											</div>
+										</div>
+										<div class="clearfix">
+											<p class="fSizeR14 c575c675 pull-left">Prefer a different branch for this account? Simply <a href="#" class="cd8292e">enter another ZIP code.</a></p>
+										</div>
+									</div>
+								</div>
+								
+								<div>
+									<div class="accountextra">
+										<span></span>
+										<div>Account Extra</div>
+									</div>
+									<div class="accountextraContent">
+										<div class="col-xs-12 col-md-4">
+											<div class="rewardProgram ">
+												<div class="rewardProgramLogo pull-left">
+													<input type="checkbox" />
+												</div>
+												<div class="fSize14 c575c675">
+													<p>Enroll my account in the KeyBank Relationship Rewards Program.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-4">
+											<div class="masterCard ">
+												<div class="masterCardLogo pull-left">
+													<input type="checkbox" />
+												</div>
+												<div class="fSize14 c575c675">
+													<p>Send me a KeyBank Debit MasterCard for this account.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-md-4">
+											<label>Do You Have A Resevation Or Offer Code? </label>
+											<div><input type="checkbox" /></div>
+										</div>
+									</div>
+								</div>
+								
+								<div>
+									<div class="accountactivity">
+										<span></span>
+										<div>Account Activity</div>
+									</div>
+									<div class="accountactivityContent">
+										<p class="fSize14 c575c675">Please indicate your expected account activity.</p>
+										
+										<div class="clearfix">
+											<p class="fSize14 c777">International Transactions</p>
+											<div>
+												<input type="checkbox" class="pull-left" />
+												<label class="fSizeR12 c777">I plan to conduct international transactions with this account.</label>
+											</div>
+										</div>
+										
+										<div>
+											<p class="fSize14 c575c675">Which of the following services are you likely to use? (<a href="#" class="cff0300">Choose all</a> that apply)</p>
+											<div>
+												<div class="clearfix">
+													<input type="checkbox" class="pull-left"/>
+													<label class="fSizeR12 c777">Wire Transfer Services.</label>
+												</div>
+												<div class="clearfix">
+													<input type="checkbox" class="pull-left"/>
+													<label class="fSizeR12 c777">Direct Deposits.</label>
+												</div>
+												<div class="clearfix">
+													<input type="checkbox" class="pull-left"/>
+													<label class="fSizeR12 c777">Other Automated Clearing House (ACH) transactions.</label>
+												</div>
+												<div class="clearfix">
+													<input type="checkbox" class="pull-left"/>
+													<label class="fSizeR12 c777">Official Bank Cheques, Money Orders Traveler Checks.</label>
+												</div>
+											
+											</div>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
 					</div>
 					
 					
@@ -146,8 +403,18 @@
 				
 				<div class="">
 					<!-- All Buttons keep here -->
-					<a href="#" id="next-step" class="hide btn-danger">Continue</a>
+					<div class="clearfix thirdRow">
+						<div class="col-xs-6 col-md-2"><button id="next-step" class="hide btn btnContinue" disabled="disabled">Continue...</button></div>
+						<div class="col-xs-6 col-md-2"><button id="saveForLater" class="btn btnSave hide" >Save for Later</button></div>
+						<div class="col-xs-12 col-md-4"><a href="#" id="cancelApp" class="cancelApp hide">Cancel and Exit Application</a></div>
+					</div>
+
 				</div>
+
+
+
+
+
 			</form>	
 		</div>
 		<div class="rightSection">
@@ -177,6 +444,7 @@
 					
 				</div>
 			</div>
+			<div class="connectInfo"></div>
 		</div>
 	</div>
     <!-- Footer start -->
@@ -207,5 +475,3 @@
 <script type="text/javascript" src="js/mahesh.js"></script>
 </body>
 </html>
-
-
