@@ -1,201 +1,492 @@
-.fL {
-	float:left;
+body,div,p,ul,ol,li,a,span,h1,h2,h3,h4,h5,h6,h7,fieldset,form{border:0;margin:0;padding:0}
+.float-left{
+float:left;
 }
-
-.p1 {
-	padding:1px;
+.float-right {
+	float: right;
 }
-
-.bgRed {
-	background-color: red;
+ul{list-style-type:none;margin:0;padding:0;}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.w25 {
-	width:25%;
-	height:2px;
-	position:relative;
-	bottom:-6px;
-}
-
-.w50 {
-	width:50%;
-	height:2px;
-	position:relative;
-	bottom:-6px;
-}
-
-.w100 {
-	width:100%;
-	height:2px;
-	position:relative;
-	bottom:-6px;
-}
-
-.hide {
-	display: none;
-}
-
-.steps a {
-	text-decoration: none;
-	cursor: default;
-}
-
-.sub-steps {
-	display: none;
-}
-
-.sub-steps.active {
-	display: block;
-}
-
-.steps .active a:hover {
-	cursor: pointer;
-}
-
-.sub-steps > div {
-	display: none;
-}
-.sub-steps .active {
-	background-color: red;
-}
-.step-content {
-	//border: 1px solid #CCC;
-}
-.step-content .active, .sub-step-content .active {
-	display: block;
-}
-.step-content .step-pane:not(.active), .sub-step-content .sub-step-pane:not(.active) {
-	display: none;
-}
-
-.fSize14 {
-	font-size: 14px;
-}
-
-.fSize15 {
-	font-size: 15px;
-}
-
-.fSize12 {
-	font-size: 12px;
-}
-
-.fSizeR12 {
-	font:12px regular;
-}
-
-.fSizeR14 {
-	font:14px regular;
-}
-
-.width20 {
-	width:20%;
-}
-
-.width65 {
-	width:65%;
-}
-
-.width80 {
-	width:80%;
-}
-
-
-
-.c777 {
-	color: #777 !important;
-}
-
-.c575c675 {
-	color: #575c67 !important;
-}
-
-.cd8292e {
-	color: #d8292e !important;
-}
-
-.cff0300 {
-	color: #ff0300 !important;
-}
-
-.branchdetails, .accountextra, .accountactivity {
-	display: inline-block;
+.mainHeader {
 	width: 100%;
-	border-bottom: 1px solid #ccc;
-	margin-top: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	color:#000000;
+    background-color: #fff;
+    float: left;
+    border-bottom: 1px solid #ccc;
 }
-
-.branchdetails  span {
-	background: url('../images/BranchDetail.png') no-repeat;
+.innerDiv{
+    width: 80%;
+    margin: 0 auto;
+	    padding: 15px 0;
+    overflow: hidden;
 }
-
-.accountextra span {
-	background: url('../images/AccountExtra.png') no-repeat;
+.header 
+{
+    background: url('../images/logo (1).png') no-repeat;
+    height: 38px;
+    width: 183px;
+    float: left;	
 }
-
-.accountactivity span {
-	background: url('../images/AccountActivity.png') no-repeat;
+.navDiv{
+background-color:#F6F6F6;
+width:100%;
+font-size:20px;
 }
-
-.branchdetails  span, .accountextra span, .accountactivity span {
-	padding:10px 15px 10px 10px;
-	float:left;
-	background-position: left center;
+.innerNavDiv {
+	    width: 80%;
+    margin: 0 auto;
+    padding-top:50px;
+    overflow: hidden;
 }
-
-.branchdetailsContent, .accountextraContent, .accountactivityContent {
-	margin-top: 10px;
+.clear {
+	clear:both;
 }
-
-.rewardProgramLogo {
-	background: url('../images/gift.png') no-repeat;
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
 }
-
-.masterCardLogo {
-	background: url('../images/payment.png') no-repeat;
+.menu li {
+	//border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
 }
-
-.rewardProgramLogo, .masterCardLogo {
-	height: 75px;
-	width: 70px;
-	background-position: center;
+.active {
+	font-weight: bold;
 }
+footer {
+    background: #575C67;
+    color: #fff;
+    font-size: 0.85em;
+    padding: 30px 0 15px;
+}
+footer ul {
+    padding: 0;
+}
+footer ul li a, footer ul li a:hover {
+    color: #fff;
+    font-size: 12px;
+}
+.padding0 {
+	padding: 0;
+}
+.text-center {
+    text-align: center;
+}
+.mainContent{
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    min-height: 400px;
+}
+.account {
+	font-size: 18px;
+	font-weight: bold;
+}
+label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: left;
+    font-size: 15px;
+}
+.accountSelect {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.rightSection {
+	display: none;
+}
+@media (min-width:831px){
+	a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu li {
+	float: left;
+    width: 20%;
+    margin: 0 2px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #999;
+    text-align: center;
+}
+.innerNavDiv {
+	    width: 70%;
+    margin: 0 120px;
+    padding-top:50px;
+    overflow: hidden;
+}
+.accountSelect {
+    width: 30%;
+    border: 1px solid #D9D9D9;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.leftSection{
+width:75%;
+float: left;
+}
+.rightSection{
+    width: 20%;
+    float: left;
+    display: block;
+    margin-left: 0%;
+    /* padding: 10px; */
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    position: absolute;
+    top: 98px;
+    right: 55px;
+}
+.icon{
+height: 33px;
+    width: 33px;
+    float: left;
+}
+.phoneIcon{
+background: url('../images/phone.png') no-repeat;
+    
+}
+.mailIcon{
+background: url('../images/mail.png') no-repeat;  
+}
+.chatIcon{
+background: url('../images/chat.png') no-repeat;   
+}
+.contactDetails{
+width:80%;
+float:left;
+margin-left: 10px;
+margin-bottom: 10px;
+line-height: 20px;
+border-bottom: 1px solid #ccc;
+}
+contactDetails:last-child  {
+	border-bottom: none;
+}
+.contactDetails a{
+color:#ff0300;
+text-decoration:underline;
+}
+.contactDetails .open {
+	color: #8CBF81;
+	text-decoration:none;
+}
+}
+p.para1 {
+    font-weight: bold;
+    font-size: 19px;
+    color: #575C67;
+    float: left;
+        margin-right: 3px;
 
-.rewardProgram, .masterCard {
+}
+.two {
+    font-weight: bold;
+    font-size: 19px;
+    color: #000000;
+    float: left;
+    margin-right: 7px;
+}
+.anchor {
+     font-weight: bold;
+    font-size: 16px;
+    color: #ff0300;
+    border-bottom: 1px solid red;
+    clear: both;
+    text-decoration: none;
+}
+.accountDetails {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 0;
-    padding: 5px;
-    height: 100px;
+    padding: 20px;
+    background: url('../images/pattern_graypatch.png') no-repeat;
+   background-position:right bottom;
+    font-weight: bold;
 }
-
-.accountDetails {
-	cursor: Pointer;
-}
-
-input[type="file"] {
-    display: none;
-}
-
-.custom-file-upload {
+.accountDetails.active {
     border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    background: url('../images/pattern_graypatch.png') no-repeat #575C67;
+    background-position:right bottom;
+    color: #fff;
+}
+.
+.Rates li { 
+        
+        padding: 5px;
+        display: inline;
+    }
+   .cross {
+    background: url('../images/cross.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -41px;
+
+}
+.clear {
+    clear:both;
+}
+.Review h4 {
+     font-weight: bold;
+    font-size: 26px;
+    color: #575C67;
+    margin-bottom: 32px;
+    margin-top: 34px;
+}
+div h5.PI {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+.personal_detail {
+     background: url('../images/personal_detail.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 1px;
+}
+hr {
+    
+     border: 1px solid #ccc; 
+     margin-bottom: 35px;
+
+   }
+   .edit {
+
+     float: right;
+     margin-top: -28px;
+    font-weight: bold;
+     color: #ff0300;
+     font-size: 13px;
+   }
+   .name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #3b434b;
+    margin-bottom: 10px;
+    margin-top:-28;
+   }
+   .DoB {
+    font-weight: bold;
+    font-size: 13px;
+    color: #575C67;
+    margin-top:23px;
+   }
+   ul.Rates li a {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+ul.Rates li {
     display: inline-block;
-    padding: 6px 12px;
-    cursor: pointer;
-	border-radius:4px;
+    padding: 0 10px;
+    color: #fff;
+ }
+ .image {
+     background: url('../images/layer9_img_upload.png') no-repeat;
+    width: 103px;
+    height: 50px;
+    float: left;
+    margin-top: 6px;
+ }
+ .Licence {
+    margin-top: 14px;
+    font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
+ }
+ .address {
+    margin-top:12px;
+    font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
+
+ }
+
+ .addressp {
+    font-weight: bold;
+     color: #3b434b;
+     font-size: 14px;
+ }
+ .innerDiv3 {
+   margin-left:-96px;
+ }
+ span.FirstYes {
+    margin-top: -39px;
+    float: right;
+    font-weight: bold;
+    color: #575C67;
+}
+ span.yes {
+    margin-top: -20px;
+    float: right;
+}
+ hr {
+    margin-top: 3px;
+}
+p.temporary
+{
+    margin-top: -14px;
+    font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
+
+}
+.AccountActivity {
+     background: url('../images/AccountActivity.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 6px;
+}
+div h3.AI {
+    font-weight: bold;
+     color: #000000;
+     font-size: 16px;
+    margin-top: 49px;
+}
+p.BrachDetails {
+     font-weight: bold;
+    font-size: 14px;
+    color: #3b434b;
+    margin-bottom: 10px;
+}
+p.town {
+font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
+}
+div.transactions {
+    margin-top: 16px;
+    font-weight: bold;
+     color: #777777;
+     font-size: 14px;
+}
+p.AccountExtra {
+     font-weight: bold;
+    font-size: 14px;
+    color: #3b434b;
+    margin-bottom: 9px;
+
+}
+span.Gift_Smaller  {
+      background: url('../images/Gift_Smaller.png') no-repeat;
+    width: 33px;
+    height: 30px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 12px;
+
+
+}
+span.card_smaller  {
+      background: url('../images/card_smaller.png') no-repeat;
+    width: 33px;
+    height: 30px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 12px;
+
+
+}
+p.Others_Activity {
+     font-weight: bold;
+    font-size: 14px;
+    color: #3b434b;
+    margin-bottom: 9px;
+
+}
+div p.It {
+    font-weight: medium;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 18px;
+}
+ul.lastul li {
+    font-weight: medium;
+     color: #777777;
+     font-size: 14px;
+    list-style-type: circle;
+    margin-bottom: 9px;
+     list-style-type: none;
+         margin-right: -124px;
+}
+ul.lastul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    color: #3b434b ;
+    padding-right: 0.5em;
+}
+span a {
+    color:red;
+    border-bottom:1px solid red;
+}
+.Email {
+    font-weight: bold;
+    font-size: 13px;
+    color: #575C67;
+}
+.bold {
+    font-weight: bold;
+     color: #3b434b;
+     font-size: 14px;
+     float: left;
+}
+.light {
+    font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
+}
+.Identification {
+    font-weight: bold;
+    color: #575C67;
+     font-size: 14px;
+     margin-top: 6px;
+}
+.Address {
+   font-weight: bold;
+    color: #575C67;
+     font-size: 13px;
+     margin-top: 31px;
+}
+.details {
+    font-weight: Medium;
+     color: #575C67;
+     font-size: 14px;
 }
 
-.custom-file-upload.active {
-	background: url('../images/layer9_img_upload.png') no-repeat;
-	height: 55px;
+.innerDiv2 {
+    margin-left: -39px;
 }
-
-.fileText .close {
-	height: 40px;
-	width:20px;
-	background: url('../images/cross_dark.png') no-repeat;
-	background-position: center;
+.lasthr {
+   text-align:left;
+    width:73%;
+    margin:0px;
+}
+.Enroll {
+    font-weight: Regular;
+     color: #575C67;
+     font-size: 14px;
+}
+.Relationship {
+    font-weight: Regular;
+     color: #3b434b;
+     font-size: 14px;
+}
+.transcations {
+    font-weight: bold;
+     color:  #3b434b;
+     font-size: 14px;
 }
