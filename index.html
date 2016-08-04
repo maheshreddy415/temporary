@@ -1,6 +1,18 @@
-<!-- All Buttons keep here -->
-<div class="clearfix thirdRow">
-	<div class="col-xs-6 col-md-2 continueBtn"><button id="next-step" class="btn btnContinue hide" >Continue...</button></div>
-	<div class="col-xs-12 col-md-4"><a href="#" id="previous-step" class="goBack anchor hide">Go Back</a></div>
-	<div class="col-xs-6 col-md-2"><button id="acceptAndSubmit" class="btn btnContinue hide" >Accept & Submit</button></div>
-</div>
+keep this code in index.html
+------------------------------------------
+<form>
+    <div class="formElement">
+        <label for="zipCode"></label>
+        <span class="placeholderTxt">ZIP Code</span>
+        <input type="text" id="zipCode" name="zipCode" />
+        <span class="flag"></span>
+    </div>
+	<div class="info">								
+	</div>
+</form>
+
+Keep the below css in index.css
+-----------------------------------------
+.inputError {
+	border: 1px solid red !important;
+}
