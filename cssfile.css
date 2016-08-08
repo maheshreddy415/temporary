@@ -1,1 +1,10 @@
-some css
+in createAccount.html
+
+.switchBtn_off {
+    background: url('../images/toggle_closed.png') no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    float: left;
+    /*margin-top: 0;*/
+}
