@@ -1,18 +1,39 @@
-keep this code in index.html
+keep this code in index.html (Re-arranging the order of radio buttons)
 ------------------------------------------
-<form>
-    <div class="formElement">
-        <label for="zipCode"></label>
-        <span class="placeholderTxt">ZIP Code</span>
-        <input type="text" id="zipCode" name="zipCode" />
-        <span class="flag"></span>
-    </div>
-	<div class="info">								
-	</div>
-</form>
+<div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-1 bold" id="relationshipDiv">
+        <h5><strong>What is the current relationship with Key bank?</strong></h5>
+	<div class="row applyAccountDiv">
+            <div class="col-xs-1">
+                <input type="radio" name="relationship" id="noAccount"/>
+		<label><span></span></label>
+            </div>
+            <div class="col-xs-10">
+                <span class="red">I do not have an account with keyBank</span>								
+		<div>
+			<input type="button" value="Apply for new account" class="applyAccount"/>
+		</div>
+            </div>
+        </div>
+	<hr />
+	<div class="row">
+            <div class="col-xs-1">
+                <input type="radio" name="relationship" />
+		<label><span></span></label>
+            </div>
+            <div class="col-xs-10">
+                <span class="red">Retrive my saved application</span>
+            </div> 
+        </div>
+	<hr />
+        <div class="row">
+            <div class="col-xs-1">
+                <input type="radio" name="relationship" />
+		<label><span></span></label>
+            </div>
+            <div class="col-xs-10">
+                <span class="red">I am a KeyBank Customer.</span>
+            </div> 
+        </div>
+ </div>
 
-Keep the below css in index.css
------------------------------------------
-.inputError {
-	border: 1px solid red !important;
-}
+
