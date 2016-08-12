@@ -1,0 +1,249 @@
+body {
+	padding: 0;
+    margin: 0;
+}
+.red {
+	color: #cd2027;
+}
+.grayBorder {
+    border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.greyText{
+   color: #777;
+}
+.borderGrayRight {
+    border-right: 1px solid #ccc;
+}
+.top0 {
+	margin-top: 0;
+}
+.top10 {
+	margin-top: 10px;
+}
+.bottom0 {
+	margin-bottom: 0;
+}
+.bottom20{
+	margin-bottom:20px;
+}
+.padding0 {
+    padding: 0;
+}
+.padTopBot15 {
+	padding: 15px 0;
+}
+.bold{
+font-weight:bold;
+}
+a{
+color:red;
+text-decoration:underline;
+}
+a:hover{
+color:#cd2027;
+}
+.applyAccountSection {
+	background: #f6f6f6;
+	border: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.stepsApplyAccount {
+	margin-top: 35px;
+    color: #000;
+}
+.stepsApplyAccount p {
+	color: #555;
+    font-size: 0.85em;
+}
+.addressDetails {
+    background: #fff;
+    padding: 30px 0;
+	min-height:310px;
+}
+.addressDetails p {
+    font-size: 0.85em;
+}
+.addressDetails input[type="text"]{
+        height: 38px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+}
+
+.addressDetails .arrow{
+    background: url('../images/dropdown_polygon.png') no-repeat;
+    height: 5px;
+    width: 6px;
+	margin: 53px 0 0 12px;
+	float:left;
+}
+.addressDetails hr{
+margin-top: 0;
+}
+.fontStyle{
+	color: #ccc;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.fColorBlack {
+	color: #000000;
+}
+
+.marT10 {
+	margin-top:10px;
+}
+
+.marT15 {
+	margin-top:15px;
+}
+
+#zipCodeForm .info{
+	background: url('../images/info.png') no-repeat;
+    height: 26px;
+    width: 23px;
+    float: left;
+    margin-top: 22px;
+	
+}
+#zipCodeForm .formElement{
+    position: relative;
+    width: 142px;
+    float: left;
+	margin-top: 10px;
+}
+.placeholderTxt{
+   color: #a7a9ac;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 16px;
+    top: 9px;
+}
+#zipCode{
+    width: 134px;
+    padding-left: 11px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.changePosition{
+	font-size:10px;
+	top: 2px;
+}
+.locationPopup{
+	height: 300px;
+    overflow-y: scroll;
+    position: absolute;
+    display: none;
+    overflow-x: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+	}
+	.locationPopup::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0);
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.locationPopup::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #fff;
+}
+
+.locationPopup::-webkit-scrollbar-thumb
+{
+	background-color: #A7A9AC;
+	border-radius: 10px;
+}
+
+.options{
+width:100%;
+float:left;
+}
+.options:hover{
+background-color:#f6f6f6;
+}
+.applyAccountDiv{
+
+}
+.accountGrayBorder{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+	padding:10px 0;
+}
+.applyAccount{
+     background-color: #ff0300;
+    border: 1px solid #ff0300;
+    padding: 8px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+	color:#fff;
+}
+#zipCodeResult,#relationshipDiv,.applyAccount{
+display:none;
+}
+#zipCodeResult p{
+margin-bottom:0;
+}
+
+.flag{
+    background: url('../images/flag.png') no-repeat;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 111px;
+    top: 12px;
+}
+
+#relationshipDiv  input[type="radio"]{
+	cursor:pointer;
+    height: 20px;
+    width: 20px;
+	margin-top: 1px;
+	}
+.opacity{
+opacity:0;
+}
+
+.radioChecked{
+	background: url('../images/red_clicked.png') no-repeat;
+    cursor:pointer;
+    height: 19px;
+    width: 19px;
+	float:left;
+	margin-top: -25px;
+	
+}
+footer {
+    background: #575C67;
+    color: #fff;
+    font-size: 0.85em;
+    padding: 30px 0 15px;
+  
+}
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li a, footer ul li a:hover {
+    color: #fff;
+}
+footer ul li.privacy{
+width:50%;
+float: left;
+}
+.inputError {
+    border: 1px solid red !important;
+}
+/* Desktop Styles */
+@media (min-width:831px){
+footer ul li.privacy{
+width:13%;
+}
+}
