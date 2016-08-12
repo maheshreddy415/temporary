@@ -386,6 +386,17 @@ p.two {
     width: 50%;
     margin: 15px 0;
 }
+
+.branchdetailsContent .fSize14 label {
+	font-size: 14px;
+	line-height: normal;
+}
+
+.anotherZipText {
+	font-weight: normal;
+    font-size: 14px;
+}
+
 .reg {
     font-weight: bold;
     color: #777;
@@ -410,7 +421,14 @@ p.two {
 }
 .transferContainer {
     margin: 5px 0;
+	margin-left: -14px;
 }
+
+#st4 hr {
+	margin-top: 0px;
+    margin-bottom: 25px;
+}
+
 .chooseLine {
     text-decoration: underline;
 }
@@ -580,23 +598,30 @@ div h3.AI {
     margin-top: 49px;
 }
 .name {
-font-weight: bold;
-font-size: 18px;
-color: #3b434b;
-margin-bottom: 10px;
-margin-top:-28;
+	font-weight: bold;
+	font-size: 18px;
+	color: #3b434b;
+	margin-bottom: 15px;
+	margin-top:-28;
 }
 .bold {
     font-weight: bold;
-     color: #3b434b;
-     font-size: 14px;
-     float: left;
+	color: #3b434b;
+	font-size: 14px;
+	float: left;
+	margin-bottom: 0px;
 }
 .light {
-    font-weight: Medium;
-     color: #575C67;
-     font-size: 14px;
+    font-weight: normal;
+    color: #575C67;
+    font-size: 14px;
+	margin-bottom: 0px;
 }
+
+.marTop-15 {
+	margin-top: -15px;
+}
+
 .Identification {
     font-weight: bold;
     color: #575C67;
@@ -612,28 +637,28 @@ margin-top:-28;
  }
 .Licence {
     margin-top: 14px;
-    font-weight: Medium;
-     color: #575C67;
-     font-size: 14px;
+    font-weight: normal;
+    color: #575C67;
+    font-size: 14px;
  }
 .address_p {
-margin-top:12px;
-font-weight: Medium;
- color: #575C67;
- font-size: 14px;
-
+	margin-top:12px;
+	font-weight: Medium;
+	color: #575C67;
+	font-size: 14px;
 }
 .addressp {
-font-weight: bold;
- color: #3b434b;
- font-size: 14px;
+	font-weight: bold;
+	color: #3b434b;
+	font-size: 14px;
+	margin: 0px;
 }
 .temporary {
     border-top:1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 .personInfo {
-    font-weight: Medium;
+    font-weight: normal;
     color: #575C67;
     //font: 14px medium;
     float: left;
@@ -729,7 +754,13 @@ ul.lastul li:before {
 }
 .add_details {
     color: #575c67;
+	font-weight: normal;
 }
+
+.address_p .details {
+	font-weight: normal;
+}
+
 .agree {
     margin-bottom: 20px;
 }
@@ -851,7 +882,8 @@ ul.lastul li:before {
 }
 
 .fSizeR12 {
-    font:12px regular;
+    font-size:12px;
+	font-weight: normal;
 }
 
 .fSizeR14 {
